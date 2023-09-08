@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bsafe_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welocome to bSafe"
+        android:textSize="25dp"
+        android:textColor="@color/purple_700"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/purple_700"
+        android:layout_below="@id/tvTitle"
+        android:textSize="35dp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmail"
+        android:inputType="textEmailAddress"
+        android:layout_centerInParent="true"
+        android:hint="Enter Email"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEmail"
+        android:id="@+id/etPassword"
+        android:inputType="numberPassword"
+        android:hint="Enter Password"
+      />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button1"
+        android:layout_marginStart="20dp"
+        android:textSize="20dp"
+        android:text="login" />
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_your_password"
+        android:layout_below="@+id/btnLogin"
+        android:textSize="20dp"
+        android:textColor="#03A9F4"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvForgotPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:textSize="15dp"
+        android:text="Create a new account!"
+        android:background="@drawable/button1"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@+id/btnRegister"
+        android:padding="20dp"
+        android:id="@+id/pbLoading"/>
+
+
+</RelativeLayout>
+</layout>

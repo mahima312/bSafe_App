@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "142559714573",
+    "project_id": "bsafe-eb01f",
+    "storage_bucket": "bsafe-eb01f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142559714573:android:8a2f80ceb61e9cd1bb6444",
+        "android_client_info": {
+          "package_name": "com.mahima.bsafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142559714573-es8nkd02mpvt4hugg0sdqrvb6ae7hjfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC36PNTiQtp4-42Ha6beDVeQnL44OuhbX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142559714573-es8nkd02mpvt4hugg0sdqrvb6ae7hjfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
